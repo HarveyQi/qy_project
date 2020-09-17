@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
+
+    <cache name="shiroEhCache"
+           maxElementsInMemory="1000"
+           clearOnFlush="true"
+           eternal="false"
+           timeToIdleSeconds="54000"
+           timeToLiveSeconds="108000"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LFU"/>
+
+    <cache name="/menu"
+           maxElementsInMemory="1000"
+           clearOnFlush="true"
+           eternal="false"
+           timeToIdleSeconds="54000"
+           timeToLiveSeconds="108000"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LFU"/>
+
+    <cache name="/pm"
+           maxElementsInMemory="1000"
+           clearOnFlush="true"
+           eternal="false"
+           timeToIdleSeconds="54000"
+           timeToLiveSeconds="108000"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LFU"/>
+
+    <cache name="/user/getAll"
+           maxElementsInMemory="1000"
+           clearOnFlush="true"
+           eternal="false"
+           timeToIdleSeconds="54000"
+           timeToLiveSeconds="108000"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LFU"/>
+
+    <cache name="/org/getAll"
+           maxElementsInMemory="1000"
+           clearOnFlush="true"
+           eternal="false"
+           timeToIdleSeconds="54000"
+           timeToLiveSeconds="108000"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LFU"/>
+</ehcache>

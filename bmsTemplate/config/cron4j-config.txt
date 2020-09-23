@@ -1,5 +1,0 @@
-cron4j=updateStatusTask
-updateStatusTask.cron=0 0 * * *
-updateStatusTask.class=
-updateStatusTask.daemon=true
-updateStatusTask.enable=true

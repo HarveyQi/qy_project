@@ -1,8 +1,0 @@
-# config
-driver = com.mysql.jdbc.Driver
-jdbcUrl = jdbc:mysql://localhost/bms_template?characterEncoding=utf8&useSSL=false
-user = root
-password = 123456
-devMode = true
-#reset password
-resetPassword = 123456

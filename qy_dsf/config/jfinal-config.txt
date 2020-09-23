@@ -1,0 +1,9 @@
+#database config
+driver = com.mysql.jdbc.Driver
+jdbcUrl = jdbc:mysql://localhost/qy_dsf?characterEncoding=utf8&useSSL=false
+user = root
+password = 123456
+#devMode change
+devMode = true
+#reset password
+resetPassword = abc123

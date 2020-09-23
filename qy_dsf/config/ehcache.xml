@@ -11,24 +11,6 @@
            overflowToDisk="false"
            memoryStoreEvictionPolicy="LFU"/>
 
-    <cache name="/menu"
-           maxElementsInMemory="1000"
-           clearOnFlush="true"
-           eternal="false"
-           timeToIdleSeconds="54000"
-           timeToLiveSeconds="108000"
-           overflowToDisk="false"
-           memoryStoreEvictionPolicy="LFU"/>
-
-    <cache name="/pm"
-           maxElementsInMemory="1000"
-           clearOnFlush="true"
-           eternal="false"
-           timeToIdleSeconds="54000"
-           timeToLiveSeconds="108000"
-           overflowToDisk="false"
-           memoryStoreEvictionPolicy="LFU"/>
-
     <cache name="/user/getAll"
            maxElementsInMemory="1000"
            clearOnFlush="true"
@@ -39,6 +21,33 @@
            memoryStoreEvictionPolicy="LFU"/>
 
     <cache name="/org/getAll"
+           maxElementsInMemory="1000"
+           clearOnFlush="true"
+           eternal="false"
+           timeToIdleSeconds="54000"
+           timeToLiveSeconds="108000"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LFU"/>
+
+    <cache name="/menu"
+           maxElementsInMemory="1000"
+           clearOnFlush="true"
+           eternal="false"
+           timeToIdleSeconds="54000"
+           timeToLiveSeconds="108000"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LFU"/>
+
+    <cache name="/btn"
+           maxElementsInMemory="1000"
+           clearOnFlush="true"
+           eternal="false"
+           timeToIdleSeconds="54000"
+           timeToLiveSeconds="108000"
+           overflowToDisk="false"
+           memoryStoreEvictionPolicy="LFU"/>
+
+    <cache name="/pm"
            maxElementsInMemory="1000"
            clearOnFlush="true"
            eternal="false"
